@@ -31,9 +31,10 @@ Optional arguments:<br>
 -ch or --cutHeight (double): Tree cut height. Default value is 0.99.<br>
 -mdt or --MeDissThres (double): Module eigengene dissimilarity threshold. Default value is 0.25.
 
-Przykładowe użycie:
+Przykładowe użycie:<br>
+```sh
 ./WGCNA.R -i ./example/input.csv -m ./example/metadata.csv -p ./example/phylo.csv
-
+```
 ## Wyniki
 
 Skrypt zwraca wykresy z poszczególnych etapów analizy (./plots/) oraz pliki niezbędne do konstrukcji sieci w Cytoscape (./results/)
@@ -75,8 +76,10 @@ Optional arguments:<br>
 -ch or --cutHeight (double): Tree cut height. Default value is 0.99.<br>
 -mdt or --MeDissThres (double): Module eigengene dissimilarity threshold. Default value is 0.25.
 
-Example usage:
+Example usage:<br>
+```sh
 ./WGCNA.R -i ./example/input.csv -m ./example/metadata.csv -p ./example/phylo.csv
+```
 
 ## Results
 
