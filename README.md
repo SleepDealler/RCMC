@@ -20,15 +20,16 @@ Przykładowe dane dostępne w ./example.
 
 ## Argumenty przyjmowane przez skrypt
 
-Wymagane argumenty:
--i lub --input (string): Ścieżka do pliku wejściowego zawierającego dane ekspresji genów (CSV).
--m lub --metadata (string): Ścieżka do pliku metadanych zawierającego informacje o próbkach (CSV).
--p lub --phylo (string): Ścieżka do pliku z cechami filogenetycznymi (CSV).
-Opcjonalne argumenty:
--d lub --deepsplit (integer): Głębokość podziału dla dynamicznego cięcia drzewa. Domyślna wartość to 2.
--mc lub --minClustersize (integer): Minimalna wielkość klastra. Domyślna wartość to 20.
--ch lub --cutHeight (double): Wysokość cięcia drzewa. Domyślna wartość to 0.99.
--mdt lub --MeDissThres (double): Próg podobieństwa dla scalania modułów eigengenów. Domyślna wartość to 0.25.
+Required arguments:<br>
+-i or --input (string): Path to the input file containing gene expression data (CSV).<br>
+-m or --metadata (string): Path to the metadata file containing sample information (CSV).<br>
+-p or --phylo (string): Path to the file with phylogenetic traits (CSV).
+
+Optional arguments:<br>
+-d or --deepsplit (integer): Depth of split for dynamic tree cutting. Default value is 2.<br>
+-mc or --minClustersize (integer): Minimum cluster size. Default value is 20.<br>
+-ch or --cutHeight (double): Tree cut height. Default value is 0.99.<br>
+-mdt or --MeDissThres (double): Module eigengene dissimilarity threshold. Default value is 0.25.
 
 Przykładowe użycie:
 ./WGCNA.R -i ./example/input.csv -m ./example/metadata.csv -p ./example/phylo.csv
