@@ -3,11 +3,12 @@
 ## Przygotowanie środowiska
 
 Poniższe kroki umożliwiają przygotowanie środowiska do przeprowadzenia analizy WGCNA:
+```sh
 git clone https://github.com/SleepDealler/WGCNA.git
 cd ./WGCNA/
 chmod +x libs.R
 ./libs.R
-
+```
 ## Dane
 
 Dane wymagane do przeprowadzenia analizy:
