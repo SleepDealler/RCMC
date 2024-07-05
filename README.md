@@ -23,7 +23,8 @@ Przykładowe dane dostępne w ./example.
 Wymagane argumenty:<br>
 -i lub --input (string): Ścieżka do pliku wejściowego zawierającego dane ekspresji genów (CSV).<br>
 -m lub --metadata (string): Ścieżka do pliku metadanych zawierającego informacje o próbkach (CSV).<br>
--p lub --phylo (string): Ścieżka do pliku z cechami filogenetycznymi (CSV).<br>
+-p lub --phylo (string): Ścieżka do pliku z cechami filogenetycznymi (CSV).<br><br
+
 Opcjonalne argumenty:<br>
 -d lub --deepsplit (integer): Głębokość podziału dla dynamicznego cięcia drzewa. Domyślna wartość to 2.<br>
 -mc lub --minClustersize (integer): Minimalna wielkość klastra. Domyślna wartość to 20.<br>
