@@ -45,11 +45,12 @@ W przypadku braku możliwości wykonania analizy przez WGCNA.R, możliwe jest pr
 ## Environment Setup
 
 The following steps allow you to set up the environment to perform WGCNA analysis:
+```sh
 git clone https://github.com/SleepDealler/WGCNA.git
 cd ./WGCNA/
 chmod +x libs.R
 ./libs.R
-
+```
 ## Data
 
 Data required to perform the analysis:
