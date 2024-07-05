@@ -8,6 +8,7 @@ git clone https://github.com/SleepDealler/WGCNA.git
 cd ./WGCNA/
 chmod +x libs.R
 ./libs.R
+chmod +x WGCNA.R
 ```
 ## Dane
 
@@ -50,6 +51,7 @@ git clone https://github.com/SleepDealler/WGCNA.git
 cd ./WGCNA/
 chmod +x libs.R
 ./libs.R
+chmod +x WGCNA.R
 ```
 ## Data
 
