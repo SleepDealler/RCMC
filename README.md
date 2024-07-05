@@ -64,15 +64,16 @@ Example data available in ./example.
 
 ## Script Arguments
 
-Required Arguments:
--i or --input (string): Path to the input file containing gene expression data (CSV).
--m or --metadata (string): Path to the metadata file containing sample information (CSV).
--p or --phylo (string): Path to the CSV file containing phylogenetic traits.
-Optional Arguments:
--d or --deepsplit (integer): Depth of split for dynamic tree cutting. Default value is 2.
--mc or --minClustersize (integer): Minimum cluster size. Default value is 20.
--ch or --cutHeight (double): Tree cut height. Default value is 0.99.
--mdt or --MeDissThres (double): Module eigengene dissimilarity threshold for merging modules. Default value is 0.25.
+Required arguments:<br>
+-i or --input (string): Path to the input file containing gene expression data (CSV).<br>
+-m or --metadata (string): Path to the metadata file containing sample information (CSV).<br>
+-p or --phylo (string): Path to the file with phylogenetic traits (CSV).
+
+Optional arguments:<br>
+-d or --deepsplit (integer): Depth of split for dynamic tree cutting. Default value is 2.<br>
+-mc or --minClustersize (integer): Minimum cluster size. Default value is 20.<br>
+-ch or --cutHeight (double): Tree cut height. Default value is 0.99.<br>
+-mdt or --MeDissThres (double): Module eigengene dissimilarity threshold. Default value is 0.25.
 
 Example usage:
 ./WGCNA.R -i ./example/input.csv -m ./example/metadata.csv -p ./example/phylo.csv
